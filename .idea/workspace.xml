@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39b05ced-9ab9-48b9-b8f9-8fbbeff6a681" name="Default Changelist" comment="" />
+    <list default="true" id="39b05ced-9ab9-48b9-b8f9-8fbbeff6a681" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labs/lab1/resource/lab1.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labs/lab1/resource/lab1_figma.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labs/lab2/resource/lap2.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labs/lab3/resource/lab3.1.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labs/lab3/resource/lab3.2.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MeetMe-doc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MeetMe-doc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/lab1/img/lab1_figma.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/lab1/img/sketchesDesign.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/labs/lab1/resource/sketchesDesign.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/lab1/lab1.fig" beforeDir="false" afterPath="$PROJECT_DIR$/labs/lab1/resource/lab1.fig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/lab1/lab1.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/lab1/lab1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/lab2/lab2.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/lab2/lab2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labs/lab3/lab3.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/lab3/lab3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/breadcrumb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/breadcrumb.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/jquery-ui/jquery-ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendors/jquery-ui/jquery-ui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/lightbox/simpleLightbox.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendors/lightbox/simpleLightbox.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/owl-carousel/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendors/owl-carousel/owl.carousel.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/popup/jquery.magnific-popup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendors/popup/jquery.magnific-popup.min.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,16 +36,27 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1SKMsjApBREDbmtqPEaUPwehkmj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/labs/lab1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\atSchool\HK1-2019-2020\GTNM\kingtxx98_site_v3\labs\lab1\resource" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace\atSchool\HK1-2019-2020\GTNM\collection\meetme\labs\lab1" />
       <recent name="D:\workspace\atSchool\HK1-2019-2020\GTNM\collection\meetme\img" />
@@ -57,10 +88,25 @@
       <workItem from="1571359811709" duration="6126000" />
       <workItem from="1571376107840" duration="7904000" />
       <workItem from="1571452199993" duration="36000" />
+      <workItem from="1571887598701" duration="1373000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
