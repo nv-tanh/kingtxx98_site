@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39b05ced-9ab9-48b9-b8f9-8fbbeff6a681" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labs/lab1/resource/lab1.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labs/lab1/resource/lab1_figma.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labs/lab2/resource/lap2.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labs/lab3/resource/lab3.1.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labs/lab3/resource/lab3.2.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MeetMe-doc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MeetMe-doc/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/lab1/img/lab1_figma.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/lab1/img/sketchesDesign.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/labs/lab1/resource/sketchesDesign.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/lab1/lab1.fig" beforeDir="false" afterPath="$PROJECT_DIR$/labs/lab1/resource/lab1.fig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/lab1/lab1.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/lab1/lab1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/lab2/lab2.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/lab2/lab2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs/lab3/lab3.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs/lab3/lab3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/breadcrumb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/breadcrumb.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendors/jquery-ui/jquery-ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendors/jquery-ui/jquery-ui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendors/lightbox/simpleLightbox.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendors/lightbox/simpleLightbox.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendors/owl-carousel/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendors/owl-carousel/owl.carousel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendors/popup/jquery.magnific-popup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendors/popup/jquery.magnific-popup.min.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +30,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../LTW/Fontend" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -88,7 +70,8 @@
       <workItem from="1571359811709" duration="6126000" />
       <workItem from="1571376107840" duration="7904000" />
       <workItem from="1571452199993" duration="36000" />
-      <workItem from="1571887598701" duration="1629000" />
+      <workItem from="1571887598701" duration="2277000" />
+      <workItem from="1572012205721" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="add call to action download all">
       <created>1571889071779</created>
@@ -97,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571889071779</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add call to action download all">
+      <created>1571889392310</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571889392310</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,7 +98,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
