@@ -54,3 +54,25 @@ table td .add{
    display: none;
 }
 
+.square {
+   height: 80px;
+   width: 80px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 15px;
+   /* background-color: #adadad; */
+   /* color:  white; */
+   border: none;
+}
+
+.square.active {
+   background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+   color: white;
+}
+
+.card {
+   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+   border: 0;
+   font-weight: 400;
+}
