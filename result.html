@@ -25,14 +25,21 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <style>
-        .thumb {
-            height: 80px;
-            width: 80px;
+        @media (min-width: 768px) {
+            .col-md-3 {
+                flex: 0 0 28%;
+                max-width: 28%;
+            }
         }
 
-        .thumb img {
+        .post-border{
+            text-align: left;
+        }
+
+        .view img {
             width: 100%;
-            height: 100%;
+            height: 51px;
+            object-fit: cover;
         }
 
         .card:hover {
@@ -171,8 +178,8 @@
                             </div>
                         </div>
                         <div class="tab-pane fade in active show" id="two" role="tabpanel" aria-labelledby="two-tab">
-                            <div class="row">
-                                <div class="col-9 p-0">
+                            <div class="row justify-content-between">
+                                <div class="col-8 p-0">
                                     <div class="row">
                                         <!--First column-->
                                         <div class=" col-md-6 col-sm-12 mb-4">
@@ -299,7 +306,7 @@
                                 </div>
                                 <div class="col-md-3 col-12 px-4">
                                     <p class="font-weight-bold dark-grey-text text-center spacing">
-                                        <strong>TEAMMEMBERS</strong>
+                                        <strong>TEAM MEMBERS</strong>
                                     </p>
                                     <hr>
                                     <!-- Section: Recent posts -->
@@ -315,7 +322,7 @@
 
                                                     <!-- Image -->
                                                     <div class="view overlay z-depth-1 rounded mb-3">
-                                                        <img src="img/my-image/img2.jpg" class="img-fluid" alt="Post">
+                                                        <img src="img/personal.jpg" class="img-fluid" alt="Post">
                                                         <a>
                                                             <div
                                                                 class="mask rgba-white-slight waves-effect waves-light">
@@ -377,7 +384,7 @@
                                                     <div class="">
                                                         <p class="mb-1">
                                                             <a target="_blank" href="http://dokimphuong.tk"
-                                                                class="text-hover font-weight-bold">DO KIM PHUONG</a>
+                                                                class="text-hover font-weight-bold">Do Kim Phuong</a>
                                                         </p>
                                                         <p class="font-small grey-text">
                                                             <em>17130172</em>
@@ -422,7 +429,7 @@
                                                     <div class="">
                                                         <p class="mb-1">
                                                             <a target="_blank" href="https://nevlik.tk/"
-                                                                class="text-hover font-weight-bold">NGUYEN MINH HIEU</a>
+                                                                class="text-hover font-weight-bold">Nguyen Minh Hieu</a>
                                                         </p>
                                                         <p class="font-small grey-text">
                                                             <em>17130069</em>
@@ -467,7 +474,7 @@
                                                     <div class="">
                                                         <p class="mb-1">
                                                             <a target="_blank" href="http://huahong2803.tk/"
-                                                                class="text-hover font-weight-bold">NGUYEN NGOC HONG</a>
+                                                                class="text-hover font-weight-bold">Nguyen Ngoc Hong</a>
                                                         </p>
                                                         <p class="font-small grey-text">
                                                             <em>17130077</em>
@@ -511,7 +518,7 @@
                                                     <div class="">
                                                         <p class="mb-1">
                                                             <a target="_blank" href="https://tranvy.tk"
-                                                                class="text-hover font-weight-bold">TRAN XUAN VY</a>
+                                                                class="text-hover font-weight-bold">Tran Xuan Vy</a>
                                                         </p>
                                                         <p class="font-small grey-text">
                                                             <em>17130280</em>
