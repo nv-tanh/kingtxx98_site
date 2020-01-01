@@ -1,0 +1,662 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <title>MeetMe Personal</title>
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="vendors/linericon/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+    <link rel="stylesheet" href="vendors/animate-css/animate.css">
+    <link rel="stylesheet" href="vendors/popup/magnific-popup.css">
+    <link href="css/mdb.css" rel="stylesheet">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <style>
+        .thumb {
+            height: 80px;
+            width: 80px;
+        }
+
+        .thumb img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .card:hover {
+            background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 150%);
+            color: white;
+        }
+
+        .card:hover a{
+            color: white;
+        }
+        .card:hover a.btn{
+            background-color: white !important;
+        }
+        .package-list {
+            padding-bottom: 30px;
+            text-decoration: none;
+            min-height: 600px;
+
+        }
+
+        .package-list ul {
+            list-style: none;
+        }
+
+        .package-list a {
+            color: #777;
+        }
+
+        .package-list a:hover {
+            color: #007bff;
+        }
+
+        .package-list .title {
+            font-weight: 550 !important;
+            font-size: 18px;
+        }
+
+        .package-list ul li {
+            padding: 10px 0;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+
+<body>
+    <!--================Header Menu Area =================-->
+    <header class="header_area">
+        <div class="main_menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container box_1620">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <a class="navbar-brand logo_h" href="../../index.html"><img src="img/logo.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+
+                        <ul class="nav navbar-nav menu_nav ml-auto">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="labs/lab1/lab1.html">Labs</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="#">Result</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="avoid-header"></div>
+
+    <!--================Content Area =================-->
+    <div class="container">
+        <div class="row">
+            <div class=" col-12 d-flex justify-content-center mt-4">
+                <div class="col-12 p-0">
+                    <div class="tabs">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link" id="one-tab" data-toggle="tab" href="#one" role="tab"
+                                    aria-controls="One" aria-selected="true">Yêu cầu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" id="two-tab" data-toggle="tab" href="#two" role="tab"
+                                    aria-controls="Two" aria-selected="false">Đánh giá</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="three-tab" data-toggle="tab" href="#three" role="tab"
+                                    aria-controls="Three" aria-selected="false">Bài học tích lũy</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content">
+                        <div class="tab-pane" id="one" role="tabpanel" aria-labelledby="one-tab">
+                            <div class="col-12 p-0">
+                                <div class="table-editable">
+                                    <div class="mt-3 mb-2 title">
+                                        <h3 class="title-1">Yêu cầu</h3>
+                                    </div>
+                                </div>
+                                <table class="table table-bordered table-responsive-md">
+                                    <thead>
+                                        <tr>
+                                            <th class="text-center" title="Số thứ tự">STT</th>
+                                            <th>Yêu cầu</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="text-center">1</td>
+                                            <td>Tạo một trang Result trên đó liệt kê những gì mình đã
+                                                làm/học được trong suốt quá trình làm bài tập nhóm. <span>Dẫn
+                                                    link tới từng trang do SV đã làm.</span>.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">2</td>
+                                            <td>Tự đánh giá mình <span>được bao nhiêu % trong tổng số 100%
+                                                    của bài tập nhóm</span>.
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade in active show" id="two" role="tabpanel" aria-labelledby="two-tab">
+                            <div class="row">
+                                <div class="col-9 p-0">
+                                    <div class="row">
+                                        <!--First column-->
+                                        <div class=" col-md-6 col-sm-12 mb-4">
+                                            <!--Card-->
+                                            <div class="card">
+
+                                                <!--Content-->
+                                                <div class="text-center">
+                                                    <div class="card-body">
+                                                        <h3>Teamwork</h3>
+                                                        <div class="d-flex justify-content-center">
+                                                            <div
+                                                                class="card-circle d-flex justify-content-center align-items-center">
+                                                                <i class="fas fa-users blue-text"></i>
+                                                            </div>
+                                                        </div>
+
+                                                        <!--Price-->
+                                                        <h2 class="font-weight-bold dark-grey-text mt-3">
+                                                            <strong></strong></h2>
+                                                        <div class="package-list text-left">
+                                                            <h5 class="mt-4 mb-2 title">Housecare service</h5>
+                                                            <ul class="pl-2">
+                                                                <li><a target="_blank"
+                                                                        href="http://housecare.tk/forgot-password.html">1.
+                                                                        Forgot password</a></li>
+                                                                <li><a target="_blank"
+                                                                        href="http://housecare.tk/deep-cleaning.html">2.
+                                                                        Deep cleanning service</a></li>
+                                                                <li><a target="_blank"
+                                                                        href="http://housecare.tk/register-air-conditioner.html">3.
+                                                                        Register to become air conditionning
+                                                                        prepairmen</a>
+                                                                </li>
+                                                                <li><a target="_blank"
+                                                                        href="http://housecare.tk/book.html">4.
+                                                                        Booking and pay</a></li>
+                                                            </ul>
+                                                            <h5 class="mt-2 mb-2 title">Website of group</h5>
+                                                            <ul class="pl-2">
+                                                                <li><a target="_blank"
+                                                                        href="https://hci2019group03.tk/project.html">5.
+                                                                        Landing page</a></li>
+                                                                <li><a target="_blank"
+                                                                        href="https://hci2019group03.tk/about.html">6.
+                                                                        About us page</a></li>
+                                                            </ul>
+                                                            <h5 class="mt-2 mb-2 title">Evaluate</h5>
+                                                            <ul class="pl-2">
+                                                                <li><span style="font-weight: 500">Complete: 100%</span>
+                                                                </li>
+                                                                <li class="price">Contribute: 20%</li>
+                                                            </ul>
+                                                        </div>
+                                                        <a
+                                                            class="btn btn-blue blue-gradient font-weight-bold btn-rounded waves-effect waves-light">Chek
+                                                            it out</a>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <!--/.Card-->
+                                        </div>
+                                        <!--/First column-->
+
+
+
+                                        <!--Third column-->
+                                        <div class="col-md-6 col-sm-12 mb-4">
+                                            <!--Card-->
+                                            <div class="card">
+                                                <!--Content-->
+                                                <div class="text-center">
+                                                    <div class="card-body">
+                                                        <h3>Individual</h3>
+                                                        <div class="d-flex justify-content-center">
+                                                            <div
+                                                                class="card-circle d-flex justify-content-center align-items-center">
+                                                                <i class="fas fa-user blue-text"></i>
+                                                            </div>
+                                                        </div>
+
+                                                        <!--Price-->
+                                                        <h2 class="font-weight-bold dark-grey-text mt-3">
+                                                            <strong></strong></h2>
+                                                        <div class="package-list text-left">
+                                                            <h5 class="mt-4 mb-2 title">Individual homework</h5>
+                                                            <ul class="pl-2">
+                                                                <li>Complete week homeworks</li>
+                                                                <li>Complete the exercise with the given request</li>
+                                                                <li>Complete intime deadline</li>
+                                                                <li>Fixed when got stuff</li>
+                                                            </ul>
+                                                            <h5 class="mt-2 mb-2 title">Personal website</h5>
+                                                            <ul class="pl-2">
+                                                                <li>Requirement: navigate with ease, less clutter, pay
+                                                                    attention to color, consistent design,
+                                                                    get the basics right first
+                                                                </li>
+                                                                <li>Learned more knowledges
+                                                                </li>
+                                                            </ul>
+                                                            <h5 class="mt-2 mb-2 title">Evaluate</h5>
+                                                            <ul class="pl-2">
+                                                                <li><span style="font-weight: 500">Complete: 100%</span>
+                                                                </li>
+                                                            </ul>
+
+                                                        </div>
+
+                                                        <a
+                                                            class="btn btn-blue blue-gradient font-weight-bold btn-rounded waves-effect waves-light">Check
+                                                            it out</a>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <!--/.Card-->
+                                        </div>
+                                        <!--/Third column-->
+                                    </div>
+
+
+                                </div>
+                                <div class="col-md-3 col-12 px-4">
+                                    <p class="font-weight-bold dark-grey-text text-center spacing">
+                                        <strong>TEAMMEMBERS</strong>
+                                    </p>
+                                    <hr>
+                                    <!-- Section: Recent posts -->
+                                    <section class="text-center my-5">
+
+                                        <div class="post-border">
+
+                                            <!-- Grid row -->
+                                            <div class="row mt-4">
+
+                                                <!-- Grid column -->
+                                                <div class="col-5">
+
+                                                    <!-- Image -->
+                                                    <div class="view overlay z-depth-1 rounded mb-3">
+                                                        <img src="img/my-image/img2.jpg" class="img-fluid" alt="Post">
+                                                        <a>
+                                                            <div
+                                                                class="mask rgba-white-slight waves-effect waves-light">
+                                                            </div>
+                                                        </a>
+                                                    </div>
+
+                                                </div>
+                                                <!-- Grid column -->
+
+                                                <!-- Second column -->
+                                                <div class="col-7 mb-1">
+
+                                                    <!-- Post data -->
+                                                    <div class="">
+                                                        <p class="mb-1">
+                                                            <a target="_blank" href="http://kingtxx98.tk/"
+                                                                class="text-hover font-weight-bold">Nguyen Van Tanh</a>
+                                                        </p>
+                                                        <p class="font-small grey-text">
+                                                            <em>17130208</em>
+                                                        </p>
+
+                                                    </div>
+
+                                                </div>
+                                                <!-- Second column -->
+
+                                            </div>
+                                            <!-- Grid row -->
+
+                                        </div>
+
+                                        <div class="post-border">
+
+                                            <!-- Grid row -->
+                                            <div class="row">
+
+                                                <!-- Grid column -->
+                                                <div class="col-5">
+
+                                                    <!-- Image -->
+                                                    <div class="view overlay rounded z-depth-1 mb-3">
+                                                        <img src="img/my-image/img7.JPG" class="img-fluid" alt="Post">
+                                                        <a>
+                                                            <div
+                                                                class="mask rgba-white-slight waves-effect waves-light">
+                                                            </div>
+                                                        </a>
+                                                    </div>
+
+                                                </div>
+                                                <!-- Grid column -->
+
+                                                <!-- Second column -->
+                                                <div class="col-7 mb-1">
+
+                                                    <!-- Post data -->
+                                                    <div class="">
+                                                        <p class="mb-1">
+                                                            <a  target="_blank" href="http://dokimphuong.tk"
+                                                                class="text-hover font-weight-bold">DO KIM PHUONG</a>
+                                                        </p>
+                                                        <p class="font-small grey-text">
+                                                            <em>17130172</em>
+                                                        </p>
+
+                                                    </div>
+
+                                                </div>
+                                                <!-- Second column -->
+
+                                            </div>
+                                            <!-- Grid row -->
+
+                                        </div>
+
+                                        <div class="post-border">
+
+                                            <!-- Grid row -->
+                                            <div class="row">
+
+                                                <!-- Grid column -->
+                                                <div class="col-5">
+
+                                                    <!-- Image -->
+                                                    <div class="view overlay rounded z-depth-1 mb-3">
+                                                        <img src="img/my-image/minhhieu.jpg" class="img-fluid"
+                                                            alt="Post">
+                                                        <a>
+                                                            <div
+                                                                class="mask rgba-white-slight waves-effect waves-light">
+                                                            </div>
+                                                        </a>
+                                                    </div>
+
+                                                </div>
+                                                <!-- Grid column -->
+
+                                                <!-- Second column -->
+                                                <div class="col-7 mb-1">
+
+                                                    <!-- Post data -->
+                                                    <div class="">
+                                                        <p class="mb-1">
+                                                            <a target="_blank" href="https://nevlik.tk/"
+                                                                class="text-hover font-weight-bold">NGUYEN MINH HIEU</a>
+                                                        </p>
+                                                        <p class="font-small grey-text">
+                                                            <em>17130069</em>
+                                                        </p>
+
+                                                    </div>
+
+                                                </div>
+                                                <!-- Second column -->
+
+                                            </div>
+                                            <!-- Grid row -->
+
+                                        </div>
+
+                                        <div class="post-border">
+
+                                            <!-- Grid row -->
+                                            <div class="row">
+
+                                                <!-- Grid column -->
+                                                <div class="col-5">
+
+                                                    <!-- Image -->
+                                                    <div class="view overlay rounded z-depth-1 mb-3">
+                                                        <img src="img/my-image/huahong.jpg" class="img-fluid"
+                                                            alt="Post">
+                                                        <a>
+                                                            <div
+                                                                class="mask rgba-white-slight waves-effect waves-light">
+                                                            </div>
+                                                        </a>
+                                                    </div>
+
+                                                </div>
+                                                <!-- Grid column -->
+
+                                                <!-- Second column -->
+                                                <div class="col-7 mb-1">
+
+                                                    <!-- Post data -->
+                                                    <div class="">
+                                                        <p class="mb-1">
+                                                            <a  target="_blank" href="http://huahong2803.tk/"
+                                                                class="text-hover font-weight-bold">NGUYEN NGOC HONG</a>
+                                                        </p>
+                                                        <p class="font-small grey-text">
+                                                            <em>17130077</em>
+                                                        </p>
+                                                    </div>
+
+                                                </div>
+                                                <!-- Second column -->
+
+                                            </div>
+                                            <!-- Grid row -->
+
+                                        </div>
+
+
+                                        <div class="post-border">
+
+                                            <!-- Grid row -->
+                                            <div class="row">
+
+                                                <!-- Grid column -->
+                                                <div class="col-5">
+
+                                                    <!-- Image -->
+                                                    <div class="view overlay rounded z-depth-1 mb-3">
+                                                        <img src="img/my-image/img6.jpg" class="img-fluid" alt="Post">
+                                                        <a>
+                                                            <div
+                                                                class="mask rgba-white-slight waves-effect waves-light">
+                                                            </div>
+                                                        </a>
+                                                    </div>
+
+                                                </div>
+                                                <!-- Grid column -->
+
+                                                <!-- Second column -->
+                                                <div class="col-7 mb-1">
+
+                                                    <!-- Post data -->
+                                                    <div class="">
+                                                        <p class="mb-1">
+                                                            <a target="_blank" href="https://tranvy.tk"
+                                                                class="text-hover font-weight-bold">TRAN XUAN VY</a>
+                                                        </p>
+                                                        <p class="font-small grey-text">
+                                                            <em>17130280</em>
+                                                        </p>
+
+                                                    </div>
+
+                                                </div>
+                                                <!-- Second column -->
+
+                                            </div>
+                                            <!-- Grid row -->
+
+                                        </div>
+
+                                    </section>
+                                    <!-- Section: Recent posts -->
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="three" role="tabpanel" aria-labelledby="three-tab">
+                            <div class="col-12 p-0">
+                                <div class="mt-3 mb-2 title">
+                                    <section class="faq-area">
+                                        <div class="container">
+                                            <div class="row d-flex justify-content-center">
+                                                <div class="menu-content col-lg-12">
+                                                    <div class="title text-center">
+                                                        <h2 class="mb-10 mt-3"><i class="fa fa-book"
+                                                                style="color: #5ba1cf"></i> Những điều
+                                                            tích lũy được khi học môn Giao
+                                                            tiếp Người - Máy</h2>
+                                                        <p>Đây là những bài học mà em cảm thấy mình đã tích lũy được khi
+                                                            học môn học này</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row justify-content-center">
+                                                <div class="col-lg-12">
+                                                    <dl class="accordion">
+                                                        <dt>
+                                                            <a href="" class="active">Áp dụng lí thuyết</a>
+                                                        </dt>
+                                                        <dd style="display: block;">
+                                                            <i class="fa fa-check"></i> Áp dụng lí thuyết được
+                                                            học trên
+                                                            lớp vào thiết kế giao diện.<br>
+                                                            <i class="fa fa-check"></i> Thiết kế được giao diện đúng yêu
+                                                            cầu, dễ nhìn, dễ sử dụng, màu sắc hài hòa,...<br>
+                                                            <i class="fa fa-check"></i> Áp dụng kiến thức về HTML, CSS,
+                                                            Bootstrap, Javascript.<br>
+                                                            <i class="fa fa-check"></i> Sử dụng Figma để xây dựng, thiết
+                                                            kế sơ bộ giao diện.<br>
+                                                            <i class="fa fa-check"></i> Hạn chế tối đa các lỗi: font
+                                                            chữ, màu sắc, khoảng trắng,...
+                                                        </dd>
+                                                        <dt>
+                                                            <a href="">Khả năng làm việc nhóm</a>
+                                                        </dt>
+                                                        <dd style="display: none;">
+                                                            <i class="fa fa-check"></i> Nhờ vào sự hỗ trợ của anh Trương
+                                                            Thanh Trà và anh Trần Ngọc Thọ trong việc đề xuất các chức
+                                                            năng, chúng em có thể dễ dàng hơn khi xây dụng trang
+                                                            web.<br>
+                                                            <i class="fa fa-check"></i> Hợp tác với các thành viên trong
+                                                            nhóm.<br>
+                                                            <i class="fa fa-check"></i> Luôn giữ vững tinh thần trách
+                                                            nhiệm, không lơ là, lười biếng làm chậm trễ tiến độ của
+                                                            nhóm.<br>
+                                                            <i class="fa fa-check"></i> Hỗ trợ với nhóm trưởng việc phân
+                                                            chia đồng đều công việc cho các thành viên để tránh việc
+                                                            gánh team, hoặc có thành viên
+                                                            không làm gì cả.<br>
+                                                            <i class="fa fa-check"></i> Tuy bước đầu còn có sự chưa
+                                                            thống nhất nhưng khi thẳng thắn góp ý với nhau,
+                                                            nhóm đã làm việc tốt hơn, từ đó các thành viên nói chung và
+                                                            bản thân em nói riêng phát huy hết khả năng của mình, đẩy
+                                                            nhanh tiến độ project.<br>
+                                                        </dd>
+                                                        <dt>
+                                                            <a href="">Khả năng lắng nghe, thấu hiểu yêu cầu</a>
+                                                        </dt>
+                                                        <dd style="display: none;">
+                                                            <i class="fa fa-check"></i> Lắng nghe những nhận xét, chỉnh
+                                                            sửa của giáo viên để hoàn thiện bài làm, giáo viên cũng như
+                                                            là người sếp của chúng ta sau này, phải đáp ứng được yêu cầu
+                                                            của sếp.<br>
+                                                            <i class="fa fa-check"></i> Khi được giáo viên nhận xét phần
+                                                            bài làm đó chưa ổn, phải nhanh chóng sửa chữa.<br>
+                                                            <i class="fa fa-check"></i> Khi được nhận xét phần bài làm
+                                                            đã ổn, cố gắng phát huy để nâng cao khả năng và sự chuyên
+                                                            nghiệp.<br>
+                                                        </dd>
+                                                    </dl>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--================End Content Area =================-->
+
+
+    <!--================Footer Area =================-->
+    <footer class="footer_area p-5">
+        <div class="container text-center align-middle">
+            <aside class="f_widget ab_widget">
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;
+                <script>document.write(new Date().getFullYear());</script>
+                All rights reserved | This template is made with ❤️ by <a href="https://colorlib.com"
+                    target="_blank">Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </aside>
+        </div>
+    </footer>
+    <!--================End Footer Area =================-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="../../js/jquery-3.3.1.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script> -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/stellar.js"></script>
+    <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+    <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+    <script src="vendors/isotope/isotope.pkgd.min.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="vendors/popup/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+    <script src="vendors/counter-up/jquery.counterup.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script src="js/theme.js"></script>
+
+</body>
+
+</html>
